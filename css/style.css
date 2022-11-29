@@ -136,9 +136,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--heading-text-color);
 }
-.we-doing {
-  list-style-type: none;
-}
+.we-doing,
 .our-team {
   list-style-type: none;
 }
@@ -189,4 +187,72 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-text-color);
+}
+/*Portfolio css*/
+
+.filter,
+.all-topics {
+  display: none;
+}
+.all-topics-list,
+.filter-buttons {
+  list-style-type: none;
+}
+.fiter-buttons-size {
+  height: 48px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.all {
+  width: 69px;
+  background: var(--brand-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--basic-bakground-color);
+}
+.web-site {
+  width: 116px;
+  background: var(--light-text-color);
+  border: 1px solid var(--accent-text-color);
+  color: var(--brand-text-color);
+}
+.app {
+  width: 78px;
+  background: var(--light-text-color);
+  border: 1px solid var(--accent-text-color);
+  color: var(--brand-text-color);
+}
+.design {
+  width: 101px;
+  background: var(--light-text-color);
+  border: 1px solid var(--accent-text-color);
+  color: var(--brand-text-color);
+}
+.marketing {
+  width: 126px;
+  background: var(--light-text-color);
+  border: 1px solid var(--accent-text-color);
+  color: var(--brand-text-color);
+}
+.header-of-topics {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-text-color);
+}
+.topics-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text-color);
+}
+.image-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-text-color);
 }
