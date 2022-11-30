@@ -58,6 +58,13 @@ body {
 .link:focus {
   color: var(--brand-text-color);
 }
+.link2 {
+  text-decoration: none;
+  color: var(--body-text-color);
+}
+.link2:hover, .link2:focus{
+  color: var(--brand-text-color);
+}
 .section1 {
   background-color: var(--heading-text-color);
 }
@@ -84,9 +91,7 @@ body {
   cursor: pointer;
 }
 .button:hover {
-  left: 20px;
-  top: 88px;
-  background: var(--brand-text-color);
+  background: #404BBF;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
